@@ -329,7 +329,7 @@ Rmpi::mpi.quit()
      [tcl] grab failed: window not viewable.
    ```
 
-R is trying to display a list of mirrors via X11 forwarding so try unsetting DISPLAY before starting R:
+   R is trying to display a list of mirrors via X11 forwarding so try unsetting DISPLAY before starting R:
 
    ```
    unset DISPLAY
