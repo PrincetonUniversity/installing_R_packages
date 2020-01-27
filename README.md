@@ -319,6 +319,24 @@ Rmpi::mpi.quit()
 
    `export R_LIBS=~/.local/lib:$R_LIBS`
 
+9. How can I solve the following error?
+
+```
+Installing package into ‘/home/mingyuc/R/x86_64-redhat-linux-gnu-library/3.6’
+(as ‘lib’ is unspecified)
+--- Please select a CRAN mirror for use in this session ---
+Error in structure(.External(.C_dotTclObjv, objv), class = "tclObj") :
+  [tcl] grab failed: window not viewable.
+```
+
+R is trying to display a list of mirrors via X11 forwarding so try unsetting DISPLAY before starting R:
+
+```
+unset DISPLAY
+module load rh/devtoolset/8
+R
+> install.packages("<package-name>")
+```
 
 ## How to Contribute
 
