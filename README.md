@@ -332,9 +332,9 @@ Rmpi::mpi.quit()
    R is trying to display a list of mirrors via X11 forwarding so try unsetting DISPLAY before starting R:
 
    ```
-   unset DISPLAY
-   module load rh/devtoolset/8
-   R
+   $ unset DISPLAY
+   $ module load rh/devtoolset/8
+   $ R
    > install.packages("<package-name>")
    ```
 
