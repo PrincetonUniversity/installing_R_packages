@@ -237,6 +237,18 @@ Or from the "Terminal" tab in RStudio do:
 
 Note that graphics cannot be displayed in the "Terminal" tab. If the package you are installing does not depend on GDAL then you do not need to load that library or module.
 
+## Running RStudio on Nobel
+
+Run these commands to launch RStudio on Nobel:
+
+```
+$ ssh -X <NetID>@nobel.princeton.edu
+$ rstudio
+```
+
+On Mac you should have XQuartz installed while on Windows you need Xming and PUTTy or MobaXterm. Visit the <a href="https://princeton.service-now.com/snap?id=kb_article&sys_id=ea2a27064f9ca20018ddd48e5210c771">OIT Tech Clinic</a> for help with installing this software.
+
+
 ## Optimizing Performance
 
 The performance of numerically intensive packages such as `rstan` can be improved through compiler optimizations and vectorization. If you are an advanced user, before installing such a package, you may considering turning on these optimizations by creating a `~/.R/Makevars` file containing these lines:
