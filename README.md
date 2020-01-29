@@ -242,7 +242,7 @@ Note that graphics cannot be displayed in the "Terminal" tab. If the package you
 Run these commands to launch RStudio on Nobel:
 
 ```
-$ ssh -X <NetID>@nobel.princeton.edu
+$ ssh -X <YourNetID>@nobel.princeton.edu
 $ rstudio
 ```
 
