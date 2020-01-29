@@ -246,7 +246,7 @@ $ ssh -X <NetID>@nobel.princeton.edu
 $ rstudio
 ```
 
-On Mac you should have XQuartz installed while on Windows you need Xming and PUTTy or MobaXterm. Visit the <a href="https://princeton.service-now.com/snap?id=kb_article&sys_id=ea2a27064f9ca20018ddd48e5210c771">OIT Tech Clinic</a> for help with installing this software.
+On Mac you should have XQuartz installed while on Windows you need Xming and PuTTY or MobaXterm. Visit the <a href="https://princeton.service-now.com/snap?id=kb_article&sys_id=ea2a27064f9ca20018ddd48e5210c771">OIT Tech Clinic</a> for help with installing this software.
 
 
 ## Optimizing Performance
