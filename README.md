@@ -243,6 +243,7 @@ Run these commands to launch RStudio on Nobel:
 
 ```
 $ ssh -X <YourNetID>@nobel.princeton.edu
+$ module load rh/devtoolset/8  # run this command if you will install packages
 $ rstudio
 ```
 
