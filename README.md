@@ -239,6 +239,8 @@ Note that graphics cannot be displayed in the "Terminal" tab. If the package you
 
 ## Running RStudio on Nobel
 
+Before running the commands below, on Mac you should have [XQuartz](https://www.xquartz.org/) installed while on Windows you need [MobaXterm](https://mobaxterm.mobatek.net/download.html) (Home Edition). Visit the <a href="https://princeton.service-now.com/snap?id=kb_article&sys_id=ea2a27064f9ca20018ddd48e5210c771">OIT Tech Clinic</a> for help with installing and using these tools.
+
 Run these commands to launch RStudio on Nobel:
 
 ```
@@ -246,9 +248,6 @@ $ ssh -X <YourNetID>@nobel.princeton.edu
 $ module load rh/devtoolset/8  # run this command if you will install packages
 $ rstudio
 ```
-
-On Mac you should have [XQuartz](https://www.xquartz.org/) installed while on Windows you need [MobaXterm](https://mobaxterm.mobatek.net/download.html) (Home Edition). Visit the <a href="https://princeton.service-now.com/snap?id=kb_article&sys_id=ea2a27064f9ca20018ddd48e5210c771">OIT Tech Clinic</a> for help with installing and using these tools.
-
 
 ## Optimizing Performance
 
