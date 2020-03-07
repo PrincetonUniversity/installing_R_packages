@@ -1,4 +1,4 @@
-# Installing R Packages on the HPC Clusters
+# This page is no longer maintained and will be removed. The new page is https://researchcomputing.princeton.edu/R
 
 ## Quick Fix
 
